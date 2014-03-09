@@ -1,0 +1,37 @@
+/*后台共用文件*/
+*{font-size:12px;}
+a{color:black}
+tr,td{text-align:center;}
+
+
+/***分页***/
+.pagebar{width:100%;background-image:url('../images/tab/tab_19.gif');background-repeat:repeat-x;}
+.pagenav{font-size:12px;text-align:center;margin:auto;}
+
+.pagenav li{list-style-type:none; float:left;margin:auto 5px;}
+.pagenav li a{display:inline-block;background-color:#C7D7E2;padding:3px;line-height:10px;}
+
+#pageiteminput{width:50px;margin:auto;}
+
+
+/***内容列表***/
+.list-article{background-color:#FFFFFF;}
+
+.btn_edit{
+display: inline-block;
+padding-left: 15px;
+margin:5px;
+background-image:url('../images/tab/edt.gif');
+background-repeat:no-repeat;
+}
+.btn_delete{
+display: inline-block;
+padding-left: 15px;
+margin:5px;
+background-image:url('../images/tab/del.gif');
+background-repeat:no-repeat;
+}
+
+/*目录树*/
+
+.tree-item-name{text-align:left;}

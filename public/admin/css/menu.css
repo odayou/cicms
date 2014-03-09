@@ -1,0 +1,46 @@
+/*后台菜单共用文件*/
+
+body {
+	margin-left: 6px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+/************主菜单*************/
+.leftmenu-list{margin:5px auto;}
+.leftmenu-list-body{
+border:1px solid #95D6E4;
+}
+
+.menu_title{
+background-image:url('../images/main_47.gif');
+cursor:hand;
+cursor:pointer;
+font-size: 12px;
+padding-left:25px;
+color: #FFFFFF;
+}
+.menu_title span {
+FONT-WEIGHT: bold; LEFT: 3px; COLOR: #ffffff; POSITION: relative; TOP: 2px 
+}
+
+.menu-list{
+height:25px;
+background:url('../images/left.gif') center left no-repeat;
+padding-left:10px;
+padding-right:10px;
+
+}
+.menu-list-a{
+height:20px;
+line-height:20px;
+display:block;
+margin:auto 5px;
+font-size: 12px;
+color: #033d61;
+}
+.menu-list-a:hover{
+border:1px solid #7bc4d3;
+}
